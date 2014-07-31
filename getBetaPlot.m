@@ -4,7 +4,7 @@ gridwidth = 0.01;
 
 if strcmp(mode,'demand')
 figure
-f_beta = objective_function_beta(beta12,beta21,s1,s2,D1,D2,alpha);
+f_beta = objective_function_beta(beta12,beta21,s1,s2,C1,C2,D1,D2,alpha);
 %pcolor(beta12,beta21,f_beta)
 surface(beta12,beta21,f_beta)
 xlabel('\beta_{12}')
